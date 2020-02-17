@@ -1,0 +1,218 @@
+/* Tipografía global */
+
+* {
+    font-family: Helvetica;
+}
+
+body {
+    margin:0;
+}
+
+.desktop01 {
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333333;
+
+}
+
+.desktop01Header {
+    /* line 1*/
+
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 59px;
+    background: #F2C94C;
+    border-bottom: 2px solid #F2C94C;
+    
+}
+
+.appName {
+
+    position: absolute;
+    left: 70px;
+    top: -60px;
+    color: #F2C94C;
+}
+
+.coinFly {
+    position: absolute;
+    left: 15px;
+    top: -50px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.button01 {
+
+    /* Rectangle 1 */
+
+    position: absolute;
+    width: 173px;
+    height: 35px;
+    left: 950px;
+    top: -50px;
+    background: #333333;
+    border: 1px solid #F2C94C;
+    box-sizing: border-box;
+    color: #F2C94C;
+    font-style: normal;
+    font-weight: normal;
+
+    
+}
+
+.button02 {
+    /* Rectangle 2 */
+
+    position: absolute;
+    width: 173px;
+    height: 35px;
+    left: 1150px;
+    top: -50px;
+    background: #F2C94C;
+    border: 1px solid #282727;
+    box-sizing: border-box;
+    color: #333333;
+}
+
+.enterEmail {
+
+    font-size: 20px;
+    background-color: #333333;
+    position: absolute;
+    width: 476px;
+    height: 40px;
+    left: 0;
+    top: 250px;
+    border: none;
+    border-bottom: 2px solid #F2C94C;
+    margin: 3em 8em;
+}
+
+.invalidEmail {
+    position: absolute;
+    width: 352px;
+    height: 29px;
+    left: 220px;
+    top: 350px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.comment {
+    position: absolute;
+    width: 352px;
+    height: 29px;
+    left: 220px;
+    top: 550px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #AD9C59;
+}
+
+
+
+.button03 {
+    
+    position: absolute;
+    width: 503px;
+    height: 99px;
+    left: 150px;
+    top: 450px;
+    background: #F2C94C;
+    border: 5px solid #282727;
+    font-style: normal;
+    font-weight: bold;
+    color: #282727;
+    font-size: 40px;
+    line-height: 61px;
+    /* identical to box height */
+
+} 
+
+
+.landingImage {
+
+    
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 802px;
+    top: 140px;
+}
+
+
+.desktop02 {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333333;
+
+}
+
+.dataForm {
+ 
+    position: absolute;
+    width: 44%;
+    height: 80%;
+    left: 79px;
+    top: 80px;
+    background: #282727;
+    border: 5px solid #F2C94C;
+    box-sizing: border-box;
+}
+
+.cardForm {
+
+    position: absolute;
+    width: 44%;
+    height: 80%;
+    left: 681px;
+    top: 80px;
+    background: #282727;
+    border: 5px solid #F2C94C;
+    box-sizing: border-box;
+
+}
+
+/*.enterPassword {
+
+    font-size: 20px;
+    background-color: #333333;
+    position: absolute;
+    width: 476px;
+    height: 40px;
+    left: 0;
+    top: 300px;
+    border: none;
+    border-bottom: 2px solid #F2C94C;
+    margin: 3em 8em;
+}
+
+*/
+
+.desktop03 {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333333;
+
+}
