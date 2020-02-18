@@ -35,14 +35,10 @@ regBtn.addEventListener("click", () => {
 
 // Ingresa a la tercera pantalla solo si los datos ingresados son validos
 valBtn.addEventListener("click", () => {
-    console.log(creditCardNumber.value)
-    console.log(validator.isValid(creditCardNumber.value));
-    
     if (enterFirstName.value !== "" && enterLastName.value !== "") {
         if (enterEmail.value === confirmEmail.value) {
             if (enterPassword.value !== "" && confirmPassword.value) {
                 if ((validator.isValid(creditCardNumber.value)) === true) {
-                    console.log('entro');
                     //4137894711755904
                     //1234123412341234
                     secondDesktop.style.display = "none";
