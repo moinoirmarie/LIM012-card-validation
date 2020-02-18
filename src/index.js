@@ -1,7 +1,4 @@
 import validator from './validator.js';
-
-
-
 // Variables
 let firstDesktop = document.getElementById("firstScreen");
 let secondDesktop = document.getElementById("secondScreen");
@@ -13,20 +10,16 @@ let enterFirstName = document.getElementById("enterFirstName");
 let enterLastName = document.getElementById("enterLastName");
 let confirmEmail = document.getElementById("confirmEmail");
 let confirmPassword = document.getElementById("confirmPassword");
-let cardNumber = document.getElementById("cardNumber");
+let creditCardNumber = document.getElementById("cardNumber");
 let valBtn = document.getElementById("valBtn");
 let welcome = document.getElementById("welcome");
 let invalidEmail = document.getElementById("invalidEmail");
 let maskCardNum = document.getElementById("maskCardNum");
 
-
-// 4557880533424093
-
 // Expresiones regulares
 let validEmail = /\S+@\S+\.\S+/;
 
 // Bloquear pantallas 2 y 3
-
 secondDesktop.style.display = "none";
 thirdDesktop.style.display = "none";
 
@@ -36,31 +29,28 @@ regBtn.addEventListener("click", () => {
         firstDesktop.style.display = "none";
         secondDesktop.style.display = "block";
     } else {
-
-        invalidEmail.innerHTML = "Por favor, ingresa un correo válido.";
+      invalidEmail.innerHTML = "Por favor, ingresa un correo válido.";
     }
-    
 });
-
 
 // Ingresa a la tercera pantalla solo si los datos ingresados son validos
 valBtn.addEventListener("click", () => {
-
+    console.log(creditCardNumber.value)
+    console.log(validator.isValid(creditCardNumber.value));
+    
     if (enterFirstName.value !== "" && enterLastName.value !== "") {
-
         if (enterEmail.value === confirmEmail.value) {
-
             if (enterPassword.value !== "" && confirmPassword.value) {
-                
-                if ((validator.validCreditCard(cardNumber)) === true) {
+                if ((validator.isValid(creditCardNumber.value)) === true) {
+                    console.log('entro');
                     //4137894711755904
                     //1234123412341234
                     secondDesktop.style.display = "none";
                     thirdDesktop.style.display = "block";   
                     welcome.innerHTML = "¡Hola, " + enterFirstName.value + " " + enterLastName.value + "!";
-                   // maskCardNum.innerHTML = cardNumber.value.replaceAt(0,"************");
+                    maskCardNum.innerHTML = validator.maskify(creditCardNumber.value);
                 } else {
-                    alert("Ingrese un número de tarjeta válido")
+                    alert("Ingrese un número de tarjeta válido");
                 }
 
             } else {
@@ -72,7 +62,7 @@ valBtn.addEventListener("click", () => {
     } 
 
     } else {
-        alert ("Ingrese su nombre y apellido.")
+        alert ("Ingrese su nombre y apellido.");
     }
 
        
