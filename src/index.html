@@ -2,107 +2,123 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>INTER/CAMBIO</title>
+    <link rel="icon" type="image/ico" href="imagenes/001-flying-money.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--Primera Pantalla-->
     <section class="desktop01" id="firstScreen">
       <header class="desktop01Header">
-        <h1 class="appName">INTER     CAMBIO</h1>
-        <button class="button01">INICIA SESIÓN</button>
-        <button class="button02">REGISTRATE</button>
+        <h1 class="appName">INTER/CAMBIO</h1>
+        <div class="headerBtn">
+          <button class="button01">INICIA SESIÓN</button>
+          <button class="button02">REGISTRATE</button>
+        </div>
         <img class ="coinFly" src="imagenes/001-flying-money.png" alt="coin"/>
       </header>
-      <main>
-        <input class="enterEmail" type="email" id="enterEmail" placeholder="correo@ejemplo.com..." name="enterEmail" required/>
-        <p class="invalidEmail" id="invalidEmail"></p>
-        <button class="button03" type="submit" id="regBtn">SIGUIENTE</button>
-        <p class="comment">¿Ya tienes cuenta? Ingresa aquí<!--Hacer un link para ingresar a la cuenta en "aquí"--></p>
-      </main>
-      <figure>
-        <img class="landingImage" src="imagenes\005-cash.png" alt="Dinero"/>
-      </figure>
+      <div class="firstContainer">
+        <main class="mainFirstScreen">
+          <input class="enterEmail" type="email" id="enterEmail" placeholder="correo@ejemplo.com..." name="enterEmail" required/>
+          <p class="invalidEmail" id="invalidEmail"></p>
+          <button class="button03" type="submit" id="regBtn">SIGUIENTE</button>
+          <p class="comment">¿Ya tienes cuenta? Ingresa aquí<!--Hacer un link para ingresar a la cuenta en "aquí"--></p>
+        </main>
+        <figure class="mainFirstScreen">
+          <img class="landingImage" src="imagenes\005-cash.png" alt="Dinero"/>
+        </figure>
+      </div>  
     </section>
     <!--Segunda Pantalla-->
-    <section class="desktop02" id="secondScreen">
+    <section class="desktop02 hide" id="secondScreen">
       <main>
-          <div class="dataForm" id="dataForm">
-            <h2>Datos Personales</h2>
-              <input type="text" id="enterFirstName" placeholder="Nombre *" name="enterFirstName" required/>
-              <input type="text" id="enterLastName" placeholder="Apellido *" name="enterLastName" required/>
-            <select name="country">
-                <option value="country0">País</option>
-                <option value="country1">Colombia</option>
-                <option value="country2">Ecuador</option>
-                <option value="country3">México</option>
-                <option value="country4">Perú</option>
-                <option value="country5">Venezuela</option>
-            </select>
-            <select name="city">
-                <option value="city0">Provincia</option>
-                <option value="city1">Arequipa</option>
-                <option value="city2">Chiclayo</option>
-                <option value="city3">Huancayo</option>
-                <option value="city4">Lima</option>
-                <option value="city5">Trujillo</option>
-            </select>
-                <input type="email" id="confirmEmail" placeholder="Confirma tu correo electrónico *" name="confirmEmail" required/>
-                <input class="enterPassword" type="password" id="enterPassword" placeholder="Crea una contraseña *" name="enterPassword" required/>
-                <input type="password" id="confirmPassword" placeholder="Confirma tu contraseña *" name="confirmPassword" required/>
-                <p class="note">NOTA: Los campos obligatorios están marcados con (*).</p>
-          </div>
-          <div class="cardForm" id="cardForm">
-            <h2>Datos de Tarjeta</h2>
-            <img class="cardIncon01" src="imagenes/creditcard-flat.png"/> 
-              <input type="text" id="cardNumber" placeholder="Ingrese el número de su tarjeta" name="cardNumber" required/>
-            <select name="month">
-                <option value="month00">Mes</option>
-                <option value="month01">Enero</option>
-                <option value="month02">Febrero</option>
-                <option value="month03">Marzo</option>
-                <option value="month04">Abril</option>
-                <option value="month05">Mayo</option>
-                <option value="month06">Junio</option>
-                <option value="month07">Julio</option>
-                <option value="month08">Agosto</option>
-                <option value="month09">Septiembre</option>
-                <option value="month10">Octubre</option>
-                <option value="month11">Noviembre</option>
-                <option value="month12">Diciembre</option>
-            </select>
-            <select name="year">
-                <option value="year0">Año</option>
-                <option value="year1">2020</option>
-                <option value="year2">2021</option>
-                <option value="year3">2022</option>
-                <option value="year4">2023</option>
-                <option value="year5">2024</option>
-            </select>
-            <button class="button04" type="submit" id="valBtn">ENVIAR</button>
-          </div>
-             
+        <button type="menu" id="back">←</button>
+        <div class="dataForm" id="dataForm">
+          <h2>Datos Personales</h2>
+            <input type="text" id="enterFirstName" placeholder="Nombre *" name="enterFirstName" required/>
+            <input type="text" id="enterLastName" placeholder="Apellido *" name="enterLastName" required/>
+            <p id="missingFullName"></p> <!--Ingrese su nombre y apellido.-->
+          <select class="countrySelect" name="country">
+            <option value="country0">País</option>
+            <option value="country1">Colombia</option>
+            <option value="country2">Ecuador</option>
+            <option value="country3">México</option>
+            <option value="country4">Perú</option>
+            <option value="country5">Venezuela</option>
+          </select>
+          <select class="citySelect" name="city">
+            <option value="city0">Provincia</option>
+            <option value="city1">Arequipa</option>
+            <option value="city2">Chiclayo</option>
+            <option value="city3">Huancayo</option>
+            <option value="city4">Lima</option>
+            <option value="city5">Trujillo</option>
+          </select>  
+          <input type="email" id="confirmEmail" placeholder="Confirma tu correo electrónico *" name="confirmEmail" required/>
+          <input class="enterPassword" type="password" id="enterPassword" placeholder="Crea una contraseña *" name="enterPassword" required/>
+          <input type="password" id="confirmPassword" placeholder="Confirma tu contraseña *" name="confirmPassword" required/>
+          <p id="emailDontMatch"></p><!--Sus correos no coinciden.-->
+          <p id="passwordDontMatch"></p><!--Sus contraeñas no coinciden.-->
+          <p class="note">NOTA: Los campos obligatorios están marcados con (*).</p>
+        </div>
+        <div class="cardForm" id="cardForm">
+          <h2>Datos de Tarjeta</h2>
+          <img class="cardIcon01" src="imagenes/creditcard-flat.png"/> 
+          <input type="text" id="cardNumber" placeholder="Ingrese el número de su tarjeta.*" name="cardNumber" required/>
+          <p id="invalidCardNum"></p><!--Ingrese un número de tarjeta válido.-->
+          <select class="monthSelect" name="month">
+            <option value="month00">Mes</option>
+            <option value="month01">Enero</option>
+            <option value="month02">Febrero</option>
+            <option value="month03">Marzo</option>
+            <option value="month04">Abril</option>
+            <option value="month05">Mayo</option>
+            <option value="month06">Junio</option>
+            <option value="month07">Julio</option>
+            <option value="month08">Agosto</option>
+            <option value="month09">Septiembre</option>
+            <option value="month10">Octubre</option>
+            <option value="month11">Noviembre</option>
+            <option value="month12">Diciembre</option>
+          </select>
+          <select class="yearSelect" name="year">
+            <option value="year0">Año</option>
+            <option value="year1">2020</option>
+            <option value="year2">2021</option>
+            <option value="year3">2022</option>
+            <option value="year4">2023</option>
+            <option value="year5">2024</option>
+          </select>
+          <input type="password" id="cvc" placeholder="CVC" name="cvc" required/>
+          <button class="button04" type="submit" id="valBtn">ENVIAR</button>
+        </div>     
       </main>
-      <footer>
-       
-      </footer>
+      <footer></footer>
     </section>
     <!--Tercera Pantalla-->
-    <section class="desktop03" id="thirdScreen">
-      <header>
+    <section class="desktop03 hide" id ="thirdScreen">
+      <header class="desktop03Header">
         <h3 id="welcome"></h3> <!--Aqui debe aparecer el nombre registrado-->
-        <button type="submit">COBRAR</button>
-        <button type="submit">PAGAR</button>
+        <button class="button05" type="submit">COBRAR</button>
+        <button class="button06" type="submit">PAGAR</button>
       </header>
       <main>
-        <p>No tiene movimientos recientes.</p>
+        <p class="noMoney">No tiene movimientos recientes.</p>
+        <div class="grid01"></div>
+        <div class="grid02"></div>
+        <div class="grid03"></div>
+        <div class="grid04"></div>
+        <div class="grid05"></div>
+        <div class="grid06"></div>
+        <div class="grid07"></div>
       </main>
       <aside>
-        <h3>Su saldo es</h3>
-        <h1>S/0.00</h1>
-        <h3>Tajetas</h3>
-        <img class="cardIncon02" src="imagenes/creditcard-flat.png"/> 
+        <h3 class="saldo01">Su saldo es</h3>
+        <h1 class="saldo02">S/0.00</h1>
+        <h3 class="saldo03">Tajetas</h3>
+        <img class="cardIcon02" src="imagenes/creditcard-flat.png"/> 
         <p id="maskCardNum"></p> <!--Aquí debo conectar el número ingresado y solo mostrar los ultimos 4 numeros-->
+        <button type="menu" id="toFirstScreen">SALIR</button>
       </aside>
     </section>
     <footer></footer>

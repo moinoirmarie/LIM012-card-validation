@@ -14,10 +14,17 @@ let creditCardNumber = document.getElementById("cardNumber");
 let valBtn = document.getElementById("valBtn");
 let welcome = document.getElementById("welcome");
 let invalidEmail = document.getElementById("invalidEmail");
+let missingFullName = document.getElementById("missingFullName");
+let emailDontMatch = document.getElementById("emailDontMatch");
+let passwordDontMatch = document.getElementById("passwordDontMatch");
+let invalidCardNum = document.getElementById("invalidCardNum");
 let maskCardNum = document.getElementById("maskCardNum");
+let backBtn = document.getElementById("back");
+let exitBtn = document.getElementById("toFirstScreen");
 
 // Expresiones regulares
 let validEmail = /\S+@\S+\.\S+/;
+let validNum = /^[0-9]*$/;
 
 // Bloquear pantallas 2 y 3
 secondDesktop.style.display = "none";
@@ -29,8 +36,16 @@ regBtn.addEventListener("click", () => {
         firstDesktop.style.display = "none";
         secondDesktop.style.display = "block";
     } else {
-      invalidEmail.innerHTML = "Por favor, ingresa un correo válido.";
+      invalidEmail.innerHTML = "Por favor, ingresa un correo válido. *";
+      enterEmail.value = "";
     }
+});
+
+// Vuelve a la pantalla principal
+backBtn.addEventListener("click", () => {
+    secondDesktop.style.display = "none";
+    firstDesktop.style.display = "block";
+    enterEmail.value = "";
 });
 
 // Ingresa a la tercera pantalla solo si los datos ingresados son validos
@@ -38,7 +53,7 @@ valBtn.addEventListener("click", () => {
     if (enterFirstName.value !== "" && enterLastName.value !== "") {
         if (enterEmail.value === confirmEmail.value) {
             if (enterPassword.value !== "" && confirmPassword.value) {
-                if ((validator.isValid(creditCardNumber.value)) === true) {
+                if (validNum.test(creditCardNumber.value) && creditCardNumber.value !== "" && (validator.isValid(creditCardNumber.value)) === true) {
                     //4137894711755904
                     //1234123412341234
                     secondDesktop.style.display = "none";
@@ -46,22 +61,27 @@ valBtn.addEventListener("click", () => {
                     welcome.innerHTML = "¡Hola, " + enterFirstName.value + " " + enterLastName.value + "!";
                     maskCardNum.innerHTML = validator.maskify(creditCardNumber.value);
                 } else {
-                    alert("Ingrese un número de tarjeta válido");
+                    invalidCardNum.innerHTML = "Ingrese un número de tarjeta válido. *";
                 }
-
             } else {
-                alert("Sus contraseñas no coinciden.");
+                passwordDontMatch.innerHTML = "Sus contraseñas no coinciden. *";
             }
-
         } else {
-            alert("Sus correos no coinciden.");
+            emailDontMatch.innerHTML = "Sus correos no coinciden. *";
     } 
-
     } else {
-        alert ("Ingrese su nombre y apellido.");
-    }
-
-       
+        missingFullName.innerHTML = "Ingrese su nombre y apellido. *";
+    }   
     }); 
 
-    
+exitBtn.addEventListener("click", () => {
+    thirdDesktop.style.display = "none";
+    firstDesktop.style.display = "block";
+    enterEmail.value = "";
+    confirmEmail.value = "";
+    enterFirstName.value = "";
+    enterLastName.value = "";
+    enterPassword.value = "";
+    confirmPassword.value = "";
+    creditCardNumber.value = "";
+});
