@@ -152,11 +152,11 @@ El proyecto consiste en una página web para hacer y rebicir pagos a través de 
 
 ### Imagen final del proyecto:
 
-([Archivo en Google Drive](https://drive.google.com/open?id=1iWJKUKxsiDcDGEXYA_aechq2y_6nIa__))
+[Archivo en Google Drive](https://drive.google.com/open?id=1iWJKUKxsiDcDGEXYA_aechq2y_6nIa__)
 
-![primera pantalla del proyecto](https://drive.google.com/file/d/1Z9-Pb5h4iE7Ey0A9USUFTme1E8Gm8AnH/view?usp=sharing)
-![segunda pantalla del proyecto](https://drive.google.com/open?id=1umtbdkGbcZ5Vri444bzho8DQ8OR5piiE)
-![tercera pantalla del proyecto](https://drive.google.com/open?id=1Z59qQqwvg_cu3H_o9wKVKjrStHGMGWg4)
+![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Pant/001.png)
+![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Pant/002.png)
+![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Pant/003.png)
 
 ### Investigación UX:
 
@@ -166,22 +166,22 @@ II. El producto funciona como una plataforma segura para realizar o recibir pago
 
 III. Prototipo baja fidelidad
 
-([Archivo en Google Drive](https://drive.google.com/open?id=1Ybf5f8bgzBW7V43IBGhh1vb4vbO1lkCj))
+[Archivo en Google Drive](https://drive.google.com/open?id=1Ybf5f8bgzBW7V43IBGhh1vb4vbO1lkCj)
 
-![primera pantalla del proyecto](https://drive.google.com/open?id=1J6Vm0FaWA0VZxXBCR2KbjKy4riZTdOxT)
-![segunda pantalla del proyecto](https://drive.google.com/open?id=1w68rF-N9vWsC0N4xqV3IFITEx6uUsan3)
-![tercera pantalla del proyecto](https://drive.google.com/open?id=1yD2MtmBRw-E7fCLLco8GJMlxrAvlVDmE)
+![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Baja/001.jpg)
+![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Baja/002.jpg)
+![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Baja/003.jpg)
 
 IV. Resumen de feedback
 Se entendió cómo funcionaba la página, como mejoras a realizar: agregar botones para regresar y salir, cambiar la creación de contraseña de la pantalla principal al formulario de la segunda pantalla, cambiar el color de algunos botones para diferenciarlos.
 
 V. Imagen prototipo final
 
-([Archivo en Google Drive](https://drive.google.com/open?id=1MsPD7gjvN7dd2qnILWW8TxomsEHcy94B))
+[Archivo en Google Drive](https://drive.google.com/open?id=1MsPD7gjvN7dd2qnILWW8TxomsEHcy94B)
 
-![primera pantalla del proyecto](https://drive.google.com/open?id=1EoQ4lBl3Owcq9cIj9unWBR92O60NJil8)
-![segunda pantalla del proyecto](https://drive.google.com/open?id=12Xv8-TCkpC2vAambVv3q5bW9pn5fiZQq)
-![tercera pantalla del proyecto](https://drive.google.com/open?id=1q-UKAGtSiknGfJc54-W0Sk1LNk8wM_Di)
+![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Alta/001.png)
+![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Alta/002.png)
+![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Alta/003.png)
 
 #### Visualmente (HTML y CSS)
 
@@ -213,6 +213,7 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS
 * En este proyecto NO está permitido usar librerías o frameworks, sólo
 [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 * No se debe utilizar la _pseudo-variable_ `this`.
+tarjeta de crédito y ocultar los dígitos de su número de tarjeta.
 
 Vas a tener 2 archivos JavaScript separando responsabilidades, a continuación
 indicamos qué harás en cada archivo:
@@ -220,7 +221,6 @@ indicamos qué harás en cada archivo:
 ##### `src/validator.js`
 
 Acá escribirás las funciones necesarias para que el usuario pueda verificar la
-tarjeta de crédito y ocultar los dígitos de su número de tarjeta.
 Esta función debe ser pura e independiente del DOM.
 
 Para esto debes implementar el **objeto `validator`**, el cual ya se encuentra
