@@ -179,9 +179,9 @@ V. Imagen prototipo final
 
 [Archivo en Google Drive](https://drive.google.com/open?id=1MsPD7gjvN7dd2qnILWW8TxomsEHcy94B)
 
-![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/blob/imagenes/Alta/001.PNG)
-![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/blob/imagenes/Alta/002.PNG)
-![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/blob/imagenes/Alta/003.PNG)
+![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Alta/001.PNG)
+![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Alta/002.PNG)
+![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Alta/003.PNG)
 
 #### Visualmente (HTML y CSS)
 
