@@ -168,9 +168,9 @@ III. Prototipo baja fidelidad
 
 [Archivo en Google Drive](https://drive.google.com/open?id=1Ybf5f8bgzBW7V43IBGhh1vb4vbO1lkCj)
 
-![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/001.JPG)
-![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/002.JPG)
-![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/003.JPG)
+![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/001.jpg)
+![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/002.jpg)
+![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/003.jpg)
 
 IV. Resumen de feedback
 Se entendió cómo funcionaba la página, como mejoras a realizar: agregar botones para regresar y salir, cambiar la creación de contraseña de la pantalla principal al formulario de la segunda pantalla, cambiar el color de algunos botones para diferenciarlos.
