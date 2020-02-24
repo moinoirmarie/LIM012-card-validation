@@ -154,9 +154,9 @@ El proyecto consiste en una página web para hacer y rebicir pagos a través de 
 
 [Archivo en Google Drive](https://drive.google.com/open?id=1iWJKUKxsiDcDGEXYA_aechq2y_6nIa__)
 
-![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Pant/001.png)
-![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Pant/002.png)
-![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Pant/003.png)
+![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Pant/001.PNG)
+![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Pant/002.PNG)
+![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Pant/003.PNG)
 
 ### Investigación UX:
 
@@ -168,9 +168,9 @@ III. Prototipo baja fidelidad
 
 [Archivo en Google Drive](https://drive.google.com/open?id=1Ybf5f8bgzBW7V43IBGhh1vb4vbO1lkCj)
 
-![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Baja/001.jpg)
-![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Baja/002.jpg)
-![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Baja/003.jpg)
+![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/001.JPG)
+![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/002.JPG)
+![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/003.JPG)
 
 IV. Resumen de feedback
 Se entendió cómo funcionaba la página, como mejoras a realizar: agregar botones para regresar y salir, cambiar la creación de contraseña de la pantalla principal al formulario de la segunda pantalla, cambiar el color de algunos botones para diferenciarlos.
@@ -179,9 +179,9 @@ V. Imagen prototipo final
 
 [Archivo en Google Drive](https://drive.google.com/open?id=1MsPD7gjvN7dd2qnILWW8TxomsEHcy94B)
 
-![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Alta/001.png)
-![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Alta/002.png)
-![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/master/imagenes/Alta/003.png)
+![primera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/blob/imagenes/Alta/001.PNG)
+![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/blob/imagenes/Alta/002.PNG)
+![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/tree/blob/imagenes/Alta/003.PNG)
 
 #### Visualmente (HTML y CSS)
 
