@@ -64,7 +64,7 @@
         <div class="cardForm" id="cardForm">
           <h2>Datos de Tarjeta</h2>
           <img class="cardIcon01" src="imagenes/creditcard-flat.png"/> 
-          <input type="text" id="cardNumber" placeholder="Ingrese el número de su tarjeta.*" name="cardNumber" required/>
+          <input type="text" id="cardNumber" placeholder="Ingrese el número de su tarjeta.*" name="cardNumber" maxlength="16" required/>
           <p id="invalidCardNum"></p><!--Ingrese un número de tarjeta válido.-->
           <select class="monthSelect" name="month">
             <option value="month00">Mes</option>
@@ -89,7 +89,7 @@
             <option value="year4">2023</option>
             <option value="year5">2024</option>
           </select>
-          <input type="password" id="cvc" placeholder="CVC" name="cvc" required/>
+          <input type="password" id="cvc" placeholder="CVC" name="cvc" maxlength="3" required/>
           <button class="button04" type="submit" id="valBtn">ENVIAR</button>
         </div>     
       </main>

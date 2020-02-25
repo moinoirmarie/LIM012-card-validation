@@ -46,6 +46,11 @@ backBtn.addEventListener("click", () => {
     secondDesktop.style.display = "none";
     firstDesktop.style.display = "block";
     enterEmail.value = "";
+    invalidEmail.innerHTML = "";
+    invalidCardNum.innerHTML = "";
+    passwordDontMatch.innerHTML = "";
+    emailDontMatch.innerHTML = "";
+    missingFullName.innerHTML = "";
 });
 
 // Ingresa a la tercera pantalla solo si los datos ingresados son validos
@@ -84,4 +89,10 @@ exitBtn.addEventListener("click", () => {
     enterPassword.value = "";
     confirmPassword.value = "";
     creditCardNumber.value = "";
+    invalidEmail.innerHTML = "";
+    invalidCardNum.innerHTML = "";
+    passwordDontMatch.innerHTML = "";
+    emailDontMatch.innerHTML = "";
+    missingFullName.innerHTML = "";
+
 });

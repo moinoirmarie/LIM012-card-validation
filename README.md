@@ -93,7 +93,7 @@ Objetivos de aprendizaje que considero que pude entender, o por lo menos utiliza
 
 * [x] Organizar y dividir el código en módulos (Modularización).
 * [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [x] Uso de linter para seguir buenas prácticas (ESLINT).
+* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
 # FIN :rocket:
