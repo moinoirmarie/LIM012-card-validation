@@ -1,8 +1,8 @@
 ## Proyecto: Tarjeta de crédito válida
 
-# Título: INTER/CAMBIO
+### Título: INTER/CAMBIO
 
-# Descripción: 
+### Descripción: 
 
 El proyecto consiste en un demo de una página web de un sistema de pagos en línea internacional, a partir de asociar la tarjeta de crédito del usuario a la plataforma de pagos.
 
@@ -14,17 +14,17 @@ El proyecto consiste en un demo de una página web de un sistema de pagos en lí
 ![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Pant/002.PNG)
 ![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Pant/003.PNG)
 
-# Investigación UX:
+## Investigación UX:
 
-# ¿Quiénes son los principales usuarios del producto?
+### ¿Quiénes son los principales usuarios del producto?
 
 Es diseñado para un público objetivo en el rango de edad entre 18-60 años que realicen constantemente pagos a través de internet.
 
-# ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+### ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 
 Realizar pagos desde cualquier lugar, hacia cualquier usuario o empresa que se encuentre afiliada a la aplicación web.
 
-# ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+### ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
 
 Siendo una alternativa a otros métodos de pago que pueden resultar más tediosos y lentos. De manera rápida, segura y sencilla.
 
@@ -36,7 +36,7 @@ Siendo una alternativa a otros métodos de pago que pueden resultar más tedioso
 ![segunda pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/002.jpg)
 ![tercera pantalla del proyecto](https://github.com/moinoirmarie/LIM012-card-validation/blob/master/imagenes/Baja/003.jpg)
 
-# Feedback
+### Feedback
 
 Al realizar el feedback con mis compañeras y algunos amigos externos, me hicieron recomendaciones sobre agregar botones para regresar, cambiar los colores de algunos botones para diferenciarlos y hacerlos más llamativos. Pero que en general la interfaz se veía bastante entendible y usable.
 
@@ -95,5 +95,6 @@ Objetivos de aprendizaje que considero que pude entender, o por lo menos utiliza
 * [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [x] Uso de linter para seguir buenas prácticas (ESLINT).
 
-### FIN :rocket:
+
+# FIN :rocket:
 
