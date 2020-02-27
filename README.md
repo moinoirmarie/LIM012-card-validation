@@ -76,7 +76,7 @@ Objetivos de aprendizaje que considero que pude entender, o por lo menos utiliza
 * [x] [Uso de condicionales](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/01-conditionals-and-loops)
 * [x] [Uso de bucles](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/02-loops)
 * [x] [Uso de funciones](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/javascript/02-flow-control/03-functions)
-* [x] [Datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
+* [ ] [Datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
 * [x] Utilizar ES Modules (`import` | `export`).
 
 ### Testing
